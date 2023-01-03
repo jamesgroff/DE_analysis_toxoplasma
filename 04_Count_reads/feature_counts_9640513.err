@@ -1,0 +1,172 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 16 BAM files                                     ||
+||                           o SRR7821918.sorted.bam                          ||
+||                           o SRR7821919.sorted.bam                          ||
+||                           o SRR7821920.sorted.bam                          ||
+||                           o SRR7821921.sorted.bam                          ||
+||                           o SRR7821922.sorted.bam                          ||
+||                           o SRR7821937.sorted.bam                          ||
+||                           o SRR7821938.sorted.bam                          ||
+||                           o SRR7821939.sorted.bam                          ||
+||                           o SRR7821949.sorted.bam                          ||
+||                           o SRR7821950.sorted.bam                          ||
+||                           o SRR7821951.sorted.bam                          ||
+||                           o SRR7821952.sorted.bam                          ||
+||                           o SRR7821953.sorted.bam                          ||
+||                           o SRR7821968.sorted.bam                          ||
+||                           o SRR7821969.sorted.bam                          ||
+||                           o SRR7821970.sorted.bam                          ||
+||                                                                            ||
+||             Output file : counts.txt                                       ||
+||                 Summary : counts.txt.summary                               ||
+||              Annotation : Mus_musculus.GRCm39.108.gtf.gz (GTF)             ||
+||      Dir for temp files : /scratch/9640513                                 ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : not counted                                      ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.108.gtf.gz ...                    ||
+||    Features : 868961                                                       ||
+||    Meta-features : 56980                                                   ||
+||    Chromosomes/contigs : 39                                                ||
+||                                                                            ||
+|| Process BAM file SRR7821918.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41586459                                             ||
+||    Successfully assigned alignments : 29688621 (71.4%)                     ||
+||    Running time : 0.58 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821919.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41869214                                             ||
+||    Successfully assigned alignments : 29231080 (69.8%)                     ||
+||    Running time : 0.59 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821920.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 48227824                                             ||
+||    Successfully assigned alignments : 29106169 (60.4%)                     ||
+||    Running time : 0.86 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821921.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 46897720                                             ||
+||    Successfully assigned alignments : 32588592 (69.5%)                     ||
+||    Running time : 0.64 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821922.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 44012657                                             ||
+||    Successfully assigned alignments : 30114600 (68.4%)                     ||
+||    Running time : 0.61 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821937.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 51124631                                             ||
+||    Successfully assigned alignments : 36297267 (71.0%)                     ||
+||    Running time : 0.77 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821938.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45083221                                             ||
+||    Successfully assigned alignments : 34803115 (77.2%)                     ||
+||    Running time : 0.63 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821939.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 53157407                                             ||
+||    Successfully assigned alignments : 37737177 (71.0%)                     ||
+||    Running time : 0.83 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821949.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34988689                                             ||
+||    Successfully assigned alignments : 22439680 (64.1%)                     ||
+||    Running time : 0.48 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821950.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26226636                                             ||
+||    Successfully assigned alignments : 17020057 (64.9%)                     ||
+||    Running time : 0.37 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821951.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38847927                                             ||
+||    Successfully assigned alignments : 24998607 (64.3%)                     ||
+||    Running time : 0.53 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821952.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27034244                                             ||
+||    Successfully assigned alignments : 17559320 (65.0%)                     ||
+||    Running time : 0.37 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821953.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25164298                                             ||
+||    Successfully assigned alignments : 16097921 (64.0%)                     ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821968.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37840185                                             ||
+||    Successfully assigned alignments : 20063942 (53.0%)                     ||
+||    Running time : 0.60 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821969.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22606606                                             ||
+||    Successfully assigned alignments : 12838828 (56.8%)                     ||
+||    Running time : 0.38 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821970.sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31288311                                             ||
+||    Successfully assigned alignments : 16645910 (53.2%)                     ||
+||    Running time : 0.50 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "counts.txt.summary"      ||
+||                                                                            ||
+\\============================================================================//
+

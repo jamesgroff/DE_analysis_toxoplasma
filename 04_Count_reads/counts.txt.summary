@@ -1,0 +1,15 @@
+Status	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821918.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821919.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821920.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821921.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821922.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821937.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821938.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821939.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821949.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821950.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821951.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821952.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821953.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821968.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821969.sorted.bam	/data/users/jgroff/DE_RNA_Seq/03_Map_reads//SRR7821970.sorted.bam
+Assigned	29688621	29231080	29106169	32588592	30114600	36297267	34803115	37737177	22439680	17020057	24998607	17559320	16097921	20063942	12838828	16645910
+Unassigned_Unmapped	328164	255286	1158155	300581	268114	354108	405707	217240	839056	503391	698728	332261	395099	1417466	1684650	1530584
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	62632	66160	210194	77540	74569	77035	58841	61964	57522	49387	68503	42250	36397	86959	90150	72626
+Unassigned_Chimera	706667	820145	2341586	1061142	857147	838424	504123	489250	916093	677968	1004989	789941	515223	1723988	1190753	1855846
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	7234880	7301925	9563980	8153304	8091146	8594607	5575472	9364750	6894051	5164249	7611554	5291060	5306109	9364454	4544368	7045101
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	3039699	3668935	5380851	4141298	4105605	4475672	3213920	4777855	3359147	2434904	3921310	2632949	2436295	4798956	2003817	3813413
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	525796	525683	466889	575263	501476	487518	522043	509171	483140	376680	544236	386463	377254	384420	254040	324831
